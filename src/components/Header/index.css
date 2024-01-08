@@ -1,0 +1,38 @@
+.logout-description {
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  .logout-description {
+    font-size: 12px;
+  }
+}
+
+.mobile-popup-content {
+  position: fixed;
+  max-width: 450px;
+  border: none;
+  margin: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+}
+
+.popup-content {
+  position: fixed;
+  max-width: 450px;
+  border: none;
+  margin-left: 0;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logout-buttons {
+  display: flex;
+  align-items: center;
+}
